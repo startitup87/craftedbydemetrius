@@ -1,0 +1,42 @@
+{
+  "name": "craftedbydemetrius-theme-store",
+  "version": "2.1.3",
+  "description": "node express js for continous deployment of ecom source code.",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/startitup87/craftedbydemetrius.git"
+  },
+  "keywords": [
+    "shopify",
+    "gumroad",
+    "etsy",
+    "facebook-market",
+    "woo-commerce"
+  ],
+  "author": "demetrius b moreland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/startitup87/craftedbydemetrius/issues"
+  },
+  "homepage": "https://github.com/startitup87/craftedbydemetrius#readme",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "algoliasearch": "^5.23.1",
+    "cors": "^2.8.5",
+    "dotnet": "^1.1.4",
+    "express": "^5.1.0",
+    "init": "^0.1.2",
+    "n8n": "^1.85.4",
+    "react-helmet": "^6.1.0",
+    "shippo": "^2.15.0",
+    "stripe": "^18.0.0",
+    "universal-analytics": "^0.5.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
